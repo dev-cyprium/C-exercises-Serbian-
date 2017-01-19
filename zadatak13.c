@@ -44,6 +44,7 @@ int main() {
 	cifara = brojCifara(broj);
 	cifre = napraviNizCifara(broj, cifara);
 
+	// Uraditi odredjenu stvar kao sto nalaze uslov zadatka
 	switch(cifara) {
 		case 1:
 			printf("Rezultat je: %d\n", cifre[0] * cifre[0]);
